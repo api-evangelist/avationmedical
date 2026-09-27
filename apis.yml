@@ -1,7 +1,6 @@
 aid: avationmedical
 name: Avationmedical
-description: 'Avationmedical is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Avation Medical manufactures the Vivally System, the only FDA‑cleared wearable closed‑loop neuromodulation device for overactive bladder. The company provides at‑home treatment using transcutaneous tibial nerve stimulation, offering patients a non‑invasive solution for urge urinary incontinence. Avation focuses on digital health and neuromodulation, delivering clinical evidence, patient resources, and a leadership team dedicated to advancing medical technology.'
 url: https://raw.githubusercontent.com/api-evangelist/avationmedical/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -11,7 +10,11 @@ specificationVersion: '0.20'
 created: '2026-09-26'
 modified: '2026-09-26'
 tags:
-- Company
+- MedicalDevice
+- DigitalHealth
+- Neuromodulation
+- WearableTech
+- OveractiveBladder
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +22,15 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/avationmedical-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/avationmedical
+  url: https://avation.com
+- type: Blog
+  url: https://avation.com/blog
+- type: Documentation
+  url: https://avation.com/clinical-evidence
+- type: GettingStarted
+  url: https://avation.com/how-vivally-works
+- type: Support
+  url: https://avation.com/contact
