@@ -10,6 +10,12 @@ specificationVersion: '0.20'
 created: '2026-09-26'
 modified: '2026-09-26'
 tags:
+- Medical Devices
+- Digital Health
+- Neuromodulation
+- WearableTech
+- OveractiveBladder
+tags_raw:
 - MedicalDevice
 - DigitalHealth
 - Neuromodulation
